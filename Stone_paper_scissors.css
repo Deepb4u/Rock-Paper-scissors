@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    font-family: sans-serif;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.scoreBord{
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 40px;
+
+}
+.count{
+    margin-left: 25px;
+    font-size: 50px;
+    text-shadow: 0 0 3px black;
+}
+.MesgContaner{
+    text-align: center;
+    color: white;
+}
+.choice:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+#Mesg{
+    padding: 0.5rem;
+    display: inline;
+    font-size: 40px;
+    border: 2px solid black;
+    background-color: #081b31;
+    border-radius: 10%;
+}       
