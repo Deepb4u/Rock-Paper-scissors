@@ -8,9 +8,11 @@ h1{
     font-family: sans-serif;
 }
 img{
-    height: 250px;
-    width: 250px;
+    height: 30dvw;
+    width: 30dvw;
 }
+
+
 .display{
     display: flex;
     flex-direction: row;
@@ -31,6 +33,7 @@ img{
     text-shadow: 0 0 3px black;
 }
 .MesgContaner{
+    padding-top: 4vb;
     text-align: center;
     color: white;
 }

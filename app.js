@@ -17,12 +17,11 @@ const showWinner = (winner,UserChoice,compchoice) => {
     if (winner){
         userScore++;
         usecount.innerHTML=userScore;
-        // Mesg.innerText = `You Win! ${UserChoice} beat ${comchoice}`;
         Mesg.innerText = "You Win";
     }else{
         compScore++;
         compcount.innerHTML= compScore;
-        Mesg.innerHTML=`You Lose! ${comchoice} beat ${UserChoice}`;
+        Mesg.innerText =`You Lose! ${compchoice} beat ${UserChoice}`;
     }
 }
 
@@ -34,6 +33,7 @@ const playGame = (UserChoice) =>{
         Mesg.innerHTML = "Drow";
     }else{
         let Userwin = true;
+        let message;
         if(UserChoice =="rock"){
             Userwin = compchoice ==="paper" ? false : true;
         }else if(UserChoice==="paper"){
